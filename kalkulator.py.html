@@ -1,0 +1,171 @@
+<html>
+
+<head>
+	<title>Program Cyber</title>
+	<link rel="stylesheet" type="text/css"
+	media="all"  href="style8.css">
+</head>
+<body>
+	<div id="layout">
+		<div id="header">
+		<img src="header.jpg" class="header">
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="index8.html">blank</a></li>
+				<li><a href="index8.html">blank</a></li>
+				<li><a href="index8.html">blank</a></li>
+			</ul>
+		</div>
+		<div id="runningtext">
+		<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+			My Name Is Samuel, This Is My Simple Calculator Program And I Want To Be An Anonymous Cyber Indonesia
+		</marquee>
+	    </div>
+	    
+
+<SCRIPT LANGUAGE="JavaScript">
+
+window.defaultStatus="Support by http://smartmonkeyprogram.wordpress.com/"
+
+function tambah()
+
+{
+
+a=eval(form.a.value)
+
+b=eval(form.b.value)
+
+c=a+b
+
+form.hasil.value = c
+
+}
+
+
+function kurang()
+
+{
+
+a=eval(form.a.value)
+
+b=eval(form.b.value)
+
+c=a-b
+
+form.hasil.value=c
+
+}
+
+
+function kali()
+
+{
+
+a=eval(form.a.value)
+
+b=eval(form.b.value)
+
+c=a*b
+
+form.hasil.value=c
+
+}
+
+
+function bagi()
+
+{
+
+a=eval(form.a.value)
+
+b=eval(form.b.value)
+
+c=a/b
+
+form.hasil.value = c
+
+}
+
+
+function pangkat()
+
+{
+
+a=eval(form.a.value)
+
+b=eval(form.b.value)
+
+c=Math.pow(a, b)
+
+form.hasil.value = c
+
+}
+
+
+function kosong()
+
+{
+
+form.a.focus()
+
+form.a.value=""
+
+form.b.value=""
+
+form.hasil.value=""
+
+
+}
+
+
+</SCRIPT>
+
+<body onload=kosong()>
+
+<CENTER>
+
+<font size="5">Kalkulator sederhana</font>
+
+<hr size="5" color="black">
+
+<FORM name="form">
+
+<pre>
+
+Angka 1 <input type="text" name="a">
+
+Angka 2 <input type="text" name="b">
+
+Hasil <input type "text" name="hasil" disabled="true">
+
+</pre>
+
+<input type="button" value=" + " onClick="tambah()">
+
+<input type="button" value=" - " onClick="kurang()">
+
+<input type="button" value=" x " onClick="kali()">
+
+<input type="button" value=" / " onClick="bagi()">
+
+<input type="button" value=" ^ " onClick="pangkat()"><br>
+
+<input type="button" value="Clear " onClick="kosong()">
+
+</br>
+
+<hr size="2" color="black">
+
+Oleh: Samuel Pasaribu<br>
+
+Support by: http://smartmonkeyprogram.wordpress.com/
+
+</FORM>
+
+</CENTER>
+
+
+</body>
+
+</html>
